@@ -1,0 +1,12 @@
+global:
+  owner: tonynv@amazon.com
+  qsname: qs-workshop
+  regions:
+    - eu-west-1
+  reporting: true
+tests:
+  lab-master-vpc:
+    parameter_input: workshop_input.json
+    template_file: master.template.yaml
+    regions:
+      - eu-west-1

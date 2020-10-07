@@ -1,0 +1,26 @@
+[
+    {
+        "ParameterKey": "AvailabilityZones",
+        "ParameterValue": "$[taskcat_getaz_2]"
+    },
+    {
+        "ParameterKey": "EmailAddress",
+        "ParameterValue": "ross.shoderu@ubertasconsulting.com
+    },
+    {
+        "ParameterKey": "KeyPairName",
+        "ParameterValue": "rshoderu-demo"
+    },
+    {
+        "ParameterKey": "WebserverCIDR",
+        "ParameterValue": "0.0.0.0/0"
+    },
+    {
+        "ParameterKey": "QSS3KeyPrefix",
+        "ParameterValue": "pipeline/"
+    },
+    {
+        "ParameterKey": "QSS3BucketName",
+        "ParameterValue": "taskcat"
+    }
+]
